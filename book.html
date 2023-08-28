@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="book.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="B">
+    <h1 id="PL"><b><center>Praveen's Library</center></b></h1>
+   <b><hr></b>
+   <h2 id="SH"><b>Search Here</b>
+   </b></h2>
+   <table>
+    <tr> 
+                <li>
+                    <ul>
+                        <td class="search1"><input type="text"  id="AName" placeholder="Search with author name"></td> 
+                        <td class="search2"><input type="text"  id="TName" placeholder="Search with Book Title"></td>
+                    </ul>
+                </li> 
+     
+    </tr>
+   </table>
+   <table border="" class="table1">
+    <li>
+        <ul>
+
+  <tr>  
+    <td>
+   <table border="">
+<tr>
+    <td><b>Title</b></td>  
+    <td>No-Drama Discipline</td>
+  </tr>
+<tr>
+    <td><b>Author</b></td>
+    <td>Daniel J. Siegel</td>
+</tr>
+<tr>
+    <td><b> yearpublished</b></td>
+    <td>2014</td>
+</tr></td>
+   </table>
+<button  type="button" onclick="book1.summary()">Summary of the book</button>
+<p id="demo1"></p> <br><br>
+<button id="add1" onclick="addd1()">Add</button>
+</td>
+<td>
+<table border="" >
+    <tr>
+        <td><b>Title</b></td>  
+        <td>How to Talk</td>
+      </tr>
+    <tr>
+        <td><b>Author</b></td>
+        <td>Adele Faber</td>
+    </tr>
+    <tr>
+        <td><b> yearpublished</b></td>
+        <td>2001</td>
+    </tr>
+       </table>
+    <button type="button" onclick="book2.summary()">Summary of the book</button>
+    <p id="demo2"></p> <br><br>
+    <button id="add2" name="add" onclick="addd2()">Add</button>
+   </td> 
+</tr>
+<tr>
+<td>
+    <table border="">
+        <tr>
+            <td><b>Title</b></td>  
+            <td>The whole Brain Child</td>
+          </tr>
+        <tr>
+            <td><b>Author</b></td>
+            <td>Adele Faber</td>
+        </tr>
+        <tr>
+            <td><b> yearpublished</b></td>
+            <td>1980</td>
+        </tr>
+    </table>
+    <button type="button" onclick="book3.summary()">Summary of the book</button>
+    <p id="demo3"></p> <br><br>
+    <button id="add3" name="add" onclick="addd3()">Add</button>
+</td>
+<td>
+
+    <table border="">
+        <tr>
+            <td><b>Title</b></td>  
+            <td>Raising Good Humans</td>
+          </tr>
+        <tr>
+            <td><b>Author</b></td>
+            <td>Hunter Clarke-Fields</td>
+        </tr>
+        <tr>
+            <td><b> yearpublished</b></td>
+            <td>2019</td>
+        </tr>
+    </table>
+    <button type="button" onclick="book4.summary()">Summary of the book</button>
+    <p id="demo4"></p> <br><br>
+    <button id="add4" name="add" onclick="addd4()">Add</button>
+</td>
+</tr>
+<tr>
+    <td>
+        <table border="">
+            <tr>
+                <td><b>Title</b></td>  
+                <td>The Explosive Child</td>
+              </tr>
+            <tr>
+                <td><b>Author</b></td>
+                <td>Ross W. Greenenvv</td>
+            </tr>
+            <tr>
+                <td><b> yearpublished</b></td>
+                <td>1998</td>
+            </tr>
+        </table>
+        <button type="button" onclick="book5.summary()">Summary of the book</button>
+        <p id="demo5"></p> <br><br>
+        <button id="add5" name="add" onclick="addd5()">Add</button>
+    </td>
+    <td>
+        <table border="">
+            <tr>
+                <td><b>Title</b></td>  
+                <td>Siblings Without Rivalry</td>
+              </tr>
+            <tr>
+                <td><b>Author</b></td>
+                <td>Adele Faber</td>
+            </tr>
+            <tr>
+                <td><b> yearpublished</b></td>
+                <td>1987</td>
+            </tr>
+        </table>
+        <button type="button" onclick="book6.summary()">Summary of the book</button>
+        <p id="demo6"></p> <br><br>
+        <button id="add6" name="add" onclick="addd6()">Add</button>
+    
+    </td>
+</tr>
+    
+<tr>
+    <td>
+        <table border="">
+            <tr>
+                <td><b>Title</b></td>  
+                <td>The Book Thief</td>
+              </tr>
+            <tr>
+                <td><b>Author</b></td>
+                <td>Markus Zusak</td>
+            </tr>
+            <tr>
+                <td><b> yearpublished</b></td>
+                <td>2005</td>
+            </tr>
+        </table>
+        <button type="button" onclick="book7.summary()">Summary of the book</button>
+        <p id="demo7"></p> <br><br>
+        <button id="add7" name="add" onclick="addd7()">Add</button>
+    </td>
+    <td>
+        <table border="">
+            <tr>
+                <td><b>Title</b></td>  
+                <td>The Fault in Our Stars</td>
+              </tr>
+            <tr>
+                <td><b>Author</b></td>
+                <td>John Green</td>
+            </tr>
+            <tr>
+                <td><b> yearpublished</b></td>
+                <td>2012</td>
+            </tr>
+        </table>
+        <button type="button" onclick="book8.summary()">Summary of the book</button>
+        <p id="demo8"></p> <br><br>
+        <button id="add8" name="add" onclick="addd8()">Add</button>
+    </td>
+</tr>
+   <tr>
+    <td>
+        <table border="">
+            <tr>
+                <td><b>Title</b></td>  
+                <td>Speak</td>
+              </tr>
+            <tr>
+                <td><b>Author</b></td>
+                <td>Laurie Halse Anderson</td>
+            </tr>
+            <tr>
+                <td><b> yearpublished</b></td>
+                <td>1999</td>
+            </tr>
+        </table>
+        <button type="button" onclick="book9.summary()">Summary of the book</button>
+        <p id="demo9"></p> <br><br>
+        <button id="add9" name="add" onclick="addd9()">Add</button>
+    </td>
+    <td>
+        <table border="">
+            <tr>
+                <td><b>Title</b></td>  
+                <td>The Catcher in the Rye</td>
+              </tr>
+            <tr>
+                <td><b>Author</b></td>
+                <td>J. D. Salinger</td>
+            </tr>
+            <tr>
+                <td><b> yearpublished</b></td>
+                <td>1951</td>
+            </tr>
+        </table>
+        <button type="button" onclick="book10.summary()">Summary of the book</button>
+        <p id="demo10"></p> <br><br>
+        <button id="add10" name="add" onclick="addd10()">Add</button>
+    </td>
+   </tr>
+  <tr>
+    <td>
+        <table border="">
+            <tr>
+                <td><b>Title</b></td>  
+                <td>Lord of the Flies</td>
+              </tr>
+            <tr>
+                <td><b>Author</b></td>
+                <td>William Golding</td>
+            </tr>
+            <tr>
+                <td><b> yearpublished</b></td>
+                <td>1954</td>
+            </tr>
+        </table>
+        <button type="button" onclick="book11.summary()">Summary of the book</button>
+        <p id="demo11"></p> <br><br>
+        <button id="add11" name="add" onclick="addd11()">Add</button>
+    </td>
+    <td>
+        <table border="">
+            <tr>
+                <td><b>Title</b></td>  
+                <td>The Fault in Our Stars</td>
+              </tr>
+            <tr>
+                <td><b>Author</b></td>
+                <td>John Green</td>
+            </tr>
+            <tr>
+                <td><b> yearpublished</b></td>
+                <td>2012</td>
+            </tr>
+        </table>
+        <button type="button" onclick="book12.summary()">Summary of the book</button>
+        <p id="demo12"></p> <br><br>
+        <button id="add12" name="add" onclick="addd12()">Add</button>
+        </td>
+   </tr>
+</ul>
+</li>
+</table> <br>
+<script src="book.js">
+    </script>
+</body>
+</html>
